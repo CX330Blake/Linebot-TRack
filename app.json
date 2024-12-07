@@ -1,24 +1,24 @@
 {
-  "name": "LineBotTemplate",
-  "description": "Line Bot API template",
-  "repository": "https://github.com/kkdai/LineBotTemplate",
-  "keywords": ["Line", "go", "static"],
-  "buildpacks": [
-    {
-      "url": "https://github.com/kr/heroku-buildpack-go.git"
-    },
-    {
-      "url": "heroku/go"
+    "name": "Linebot-TRack",
+    "description": "Taiwan Railway Tracker",
+    "repository": "https://github.com/CX330Blake/Linebot-TRack",
+    "keywords": ["Line", "go", "static"],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kr/heroku-buildpack-go.git"
+        },
+        {
+            "url": "heroku/go"
+        }
+    ],
+    "env": {
+        "ChannelAccessToken": {
+            "description": "2006647370",
+            "required": true
+        },
+        "ChannelSecret": {
+            "description": "ddc4ae54dd79d225921a6d0cb0089efb",
+            "required": true
+        }
     }
-  ],
-  "env": {
-    "ChannelAccessToken": {
-      "description": "Channel Access Token",
-      "required": true
-    },
-    "ChannelSecret": {
-      "description": "Channel Secret",
-      "required": true
-    }
-  }
 }
