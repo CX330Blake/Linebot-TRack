@@ -24,9 +24,9 @@ import (
 )
 
 func main() {
-	channelSecret := os.Getenv("ChannelSecret")
+	channelSecret := os.Getenv("ddc4ae54dd79d225921a6d0cb0089efb")
 	bot, err := messaging_api.NewMessagingApiAPI(
-		os.Getenv("ChannelAccessToken"),
+		os.Getenv("2006647370"),
 	)
 	if err != nil {
 		log.Fatal(err)
