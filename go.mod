@@ -1,6 +1,5 @@
-module github.com/kkdai/LineBotTemplate
+module github.com/CX330Blake/Linebot-TRack
 
-// +heroku goVersion go1.21
-go 1.23
+go 1.23.1
 
 require github.com/line/line-bot-sdk-go/v8 v8.10.0
